@@ -1,8 +1,18 @@
-/* https://www.colorhunt.co/palette/5571537d8f69a9af7ee6e5a3
-
-https://www.colorhunt.co/palette/5f71616d8b74efead8d0c9c0 */
-
+/* https://www.colorhunt.co */
 
 body {
-    background-color: #5F7161;
+    background-color: #0B2447;
 }
+
+h1.main-heading {
+    text-align: center;
+    color: #16FF00;
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+    padding: 20px;
+}
+
