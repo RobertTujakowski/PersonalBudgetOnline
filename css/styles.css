@@ -25,16 +25,17 @@ body {
 .btn {
     border-radius: 10px;
     font-weight: bold;
-    margin: 5px 5% 5px 5%;
+    width: 25%;
+    margin: 5px 2% 5px 2%;
 }
 
 .btn:hover {
-    color: #D5CEA3;
+    color: #62CDFF;
 }
 
 hr {
     margin: 0 16px 0 16px;
-    border-top: 3px dotted #E5E5CB;
+    border-top: 1px dashed #E5E5CB;
 }
 
 .bottom-main-bar {
