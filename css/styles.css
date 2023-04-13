@@ -1,8 +1,9 @@
-/* https://www.colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+/* 
+COLOR THEME
+https://www.colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb 
+*/
 
 body {
-    background-color: #3C2A21;
-    
     font-family: "Montserrat";
 }
 
@@ -17,29 +18,35 @@ h1.main-heading {
     padding: 20px;
 }
 
-h2 {
-    font-size: 20px;
+.top-bar {
+    background-color: #1A120B;
+    color: #E5E5CB;
+
+    width: 100%;
+    height: 100px;
+    position: fixed;
+
     font-weight: bold;
 }
 
-.main-bars {
-    background-color: #1A120B;
+.btn {
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.btn:hover {
+    color: #D5CEA3;
 }
 
 .bottom-main-bar {
-    heigth: 100px;
+    
 }
 
-.main-option {
-    background-color: #3C2A21;
-    color: #E5E5CB;
-
+.main-options {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border-radius: 10px;
-    font-weight: bold;
 }
 
 .eraser {
@@ -47,8 +54,10 @@ h2 {
 }
 
 main {
+    background-color: #3C2A21;
+    color: #E5E5CB;
     font-size: 2rem;
-    color: #D5CEA3;
+    
     padding: 20px;
     text-align: left;
     padding-top: 50px;
