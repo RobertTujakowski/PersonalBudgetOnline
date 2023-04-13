@@ -7,17 +7,6 @@ body {
     font-family: "Montserrat";
 }
 
-h1.main-heading {
-    text-align: center;
-    color: #E5E5CB;
-    font-family: "Montserrat", sans-serif;
-
-    font-size: 2rem;
-    font-weight: 900;
-
-    padding: 20px;
-}
-
 .top-bar {
     background-color: #1A120B;
     color: #E5E5CB;
@@ -29,18 +18,27 @@ h1.main-heading {
     font-weight: bold;
 }
 
+.top-fonts {
+    color: #D5CEA3;
+}
+
 .btn {
     border-radius: 10px;
     font-weight: bold;
-    margin: 5px;
+    margin: 5px 5% 5px 5%;
 }
 
 .btn:hover {
     color: #D5CEA3;
 }
 
+hr {
+    margin: 0 16px 0 16px;
+    border-top: 3px dotted #E5E5CB;
+}
+
 .bottom-main-bar {
-    
+    height: 30px;
 }
 
 .main-options {
