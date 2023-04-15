@@ -5,6 +5,8 @@ https://www.colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb
 
 body {
     font-family: "Montserrat";
+    background-color: #D5CEA3;
+    
 }
 
 .top-bar {
@@ -13,29 +15,27 @@ body {
 
     width: 100%;
     height: 100px;
-    position: fixed;
-
+    margin: 5px;
+    border-radius: 10px;
     font-weight: bold;
 }
 
 .top-fonts {
-    color: #D5CEA3;
+    color: #E5E5CB;
 }
 
 .btn {
     border-radius: 10px;
     font-weight: bold;
     margin: 5px 2% 5px 2%;
-    /* height: 36px; */
+    background-color: #3C2A21;
+    color: #E5E5CB;
+    height: 40px;
 }
 
 .btn:hover {
+    background-color: #1A120B;
     color: #62CDFF;
-}
-
-hr {
-    margin: 0 16px 0 16px;
-    border-top: 1px dashed #E5E5CB;
 }
 
 .bottom-main-bar {
@@ -55,9 +55,27 @@ hr {
 main {
     background-color: #3C2A21;
     color: #E5E5CB;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
     padding: 20px;
+    border-radius: 10px;
+
     text-align: left;
-    padding-top: 50px;
+
+    margin: 5px;
 }
+
+.main-window{
+    
+}
+
+.bottom-bar {
+    background-color: #1A120B;
+    color: #E5E5CB;
+
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
