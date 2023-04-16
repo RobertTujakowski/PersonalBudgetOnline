@@ -52,7 +52,7 @@ body {
 .btn {
     border-radius: 10px;
     font-weight: bold;
-    margin: 10px;
+    margin: 5px;
     background-color: var(--color2);
     color: var(--color4);
     height: 40px;
