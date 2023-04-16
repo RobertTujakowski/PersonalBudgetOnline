@@ -25,7 +25,6 @@ https://www.colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
 body {
     font-family: "Montserrat";
     background-color: var(--color3);
-    
 }
 
 .top-bar {
@@ -33,9 +32,17 @@ body {
     color: var(--color4);
     font-weight: bold;
 
-    height: 150px;
     border-radius: 10px;
     margin: 10px;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    color: var(--color4);
+}
+
+.nav-item {
+    color: var(--color4);
 }
 
 .top-fonts {
@@ -45,7 +52,7 @@ body {
 .btn {
     border-radius: 10px;
     font-weight: bold;
-    margin: 5px;
+    margin: 10px;
     background-color: var(--color2);
     color: var(--color4);
     height: 40px;
@@ -53,7 +60,7 @@ body {
 
 .btn:hover {
     background-color: var(--color1);
-    color: var(--color3);
+    color: var(--color4);
 }
 
 .main-options {
@@ -73,7 +80,7 @@ main {
 .main-window{
     background-color: var(--color2);
     color: var(--color4);
-    font-size: 1.5rem;
+    font-size: 1rem;
     
     text-align: left;
 
