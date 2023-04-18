@@ -72,10 +72,6 @@ body {
     clear: both;
 }
 
-main {
-    
-}
-
 .main-window{
     background-color: var(--color2);
     color: var(--color4);
