@@ -40,8 +40,9 @@ body {
     color: var(--color4);
 }
 
-.nav-item {
+.dropdown-item {
     color: var(--color4);
+    font-weight: bold;
 }
 
 .top-fonts {
