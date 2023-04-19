@@ -26,7 +26,7 @@
     
     <header>
         <article class="top-bar">
-        
+            
             <section class="top-navbar">
                 <div class="container-fluid">
 
@@ -40,12 +40,6 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav ml-auto">
                                 <li>
-                                    <a class="dropdown-item" href="#"><i class="top-fonts fa fa-gear fa-xl"></i> Settings</a>
-                                </li>
-                                <li>                    
-                                    <a class="dropdown-item" href="#"><i class="top-fonts fa fa-solid fa-sign-out fa-xl"></i> Sign out</a>
-                                </li>
-                                <li>
                                     <a class="dropdown-item" href="#"><i class="top-fonts fa fa-solid fa-circle-info fa-xl"></i> Info</a>
                                 </li>
                             </ul>
@@ -54,23 +48,62 @@
 
                 </div>
             </section>
-
-            <section>
-                <div class="main-options row">
-                    <button type="button" class="btn btn-light btn-sm download-button"><i class="font fa-solid fa-chart-line fa-xl"></i> CHART</button>
-                    <button type="button" class="btn btn-light btn-sm download-button"><i class="font fa-solid fa-piggy-bank fa-xl"></i> INCOME</button>
-                    <button type="button" class="btn btn-light btn-sm download-button"><i class="font fa-solid fa-cart-shopping fa-xl"></i> EXPENSE</button>
-                </div>
-            </section>
             
         </article>
     </header>
 
     <main>
         <div class="main-window">
-            <p>
-                WINDOW FOR CHART or INCOME or EXPENSE
-            </p>
+
+            <section class="small-container">
+
+                <h1>TYPE ICOME DATA</h1>
+
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            <i class="fa-solid fa-money-bill"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Amount'>
+                </div>
+
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Date'>
+                </div>
+
+                <div class="incomeInput input-group myInput">
+                    <select class="form-control" name="category">
+                        <option value="" selected disabled hidden>
+                            Choose category
+                        </option>
+                        <option value='Salary'>Salary</option>
+                        <option value='Bank interest'>Bank interest</option>
+                        <option value='Allegro sale'>Allegro sale</option>
+                        <option value='Another income'>Another income</option>
+                    </select>
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-menu-down"></i>
+                    </span>
+                </div>
+
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            <i class="fa-solid fa-comment"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Additional comment'>
+                </div>
+
+                <button id="add" type="button" class="btn btn-light btn-sm download-button">ADD</button>
+            </section>
+
         </div>
     </main>
 

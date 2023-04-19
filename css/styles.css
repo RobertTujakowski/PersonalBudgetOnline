@@ -26,6 +26,12 @@ body {
     background-color: var(--color3);
 }
 
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px auto 20px auto;
+}
+
 .top-bar {
     background-color: var(--color1);
     color: var(--color4);
@@ -73,6 +79,7 @@ body {
     border-radius: 10px;
     font-weight: bold;
     margin: 3px 3px 5px 3px;
+    padding: auto;
     background-color: var(--color3);
     color: var(--color2);
     height: 40px;
@@ -101,7 +108,7 @@ body {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    font-weight: bold;
+    
 }
 
 .bottom-bar {
@@ -117,3 +124,22 @@ body {
     margin: 0;
 }
 
+.small-container {
+    width: 380px;
+    text-align: center;
+    margin: auto;
+}
+
+#register {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#add {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.incomeInput {
+    margin: 10px auto 15px auto;
+}
