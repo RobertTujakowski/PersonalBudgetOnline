@@ -58,11 +58,13 @@ h1 {
 .img-money {
     border-radius: 10px;
     margin: 10px auto 10px auto;
+    width: 50%;
 }
 
 .money-txt {
     text-align: left;
     font-size: 1rem;
+    padding:10px;
 }
 
 .btnHomePage {
