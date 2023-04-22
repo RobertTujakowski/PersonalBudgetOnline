@@ -55,54 +55,61 @@
     <main>
         <div class="main-window">
 
-            <section class="small-container">
+            <div class="row">
 
-                <h1>TYPE ICOME DATA</h1>
+                <section class="small-container col-lg-4 col-md-6 col-sm-12">
 
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            <i class="fa-solid fa-money-bill"></i>
-                        </span>
+                    <h1>TYPE ICOME DATA</h1>
+
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                <i class="fa-solid fa-money-bill"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Amount'>
                     </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Amount'>
-                </div>
 
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            <i class="fa-solid fa-calendar-days"></i>
-                        </span>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Date'>
                     </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Date'>
-                </div>
 
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                      <label class="input-group-text" for="inputGroupSelect01">
-                        <i class="fa-sharp fa-solid fa-rectangle-list"></i>
-                      </label>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">
+                            <i class="fa-sharp fa-solid fa-rectangle-list"></i>
+                        </label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose ...</option>
+                        <option value="1">Salary</option>
+                        <option value="2">Bank interest</option>
+                        <option value="3">Allegro sale</option>
+                        <option value="4">Another income</option>
+                        </select>
                     </div>
-                    <select class="custom-select" id="inputGroupSelect01">
-                      <option selected>Choose ...</option>
-                      <option value="1">Salary</option>
-                      <option value="2">Bank interest</option>
-                      <option value="3">Allegro sale</option>
-                      <option value="4">Another income</option>
-                    </select>
-                </div>
 
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            <i class="fa-solid fa-comment"></i>
-                        </span>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                <i class="fa-solid fa-comment"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Additional comment'>
                     </div>
-                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value='' placeholder='Additional comment'>
-                </div>
 
-                <button id="add" type="button" class="btn btn-light btn-sm download-button">ADD INCOME</button>
-            </section>
+                    <button id="add" type="button" class="btn btn-light btn-sm download-button">
+                        <i class="font fa-solid fa-piggy-bank fa-xl"></i> ADD INCOME
+                    </button>
+                
+                </section>
+
+            </div>
 
         </div>
     </main>

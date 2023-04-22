@@ -83,6 +83,9 @@ h1 {
     background-color: var(--color3);
     color: var(--color2);
     height: 40px;
+}
+
+.btnWide {
     width: 100%;
 }
 
