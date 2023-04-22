@@ -83,6 +83,7 @@ h1 {
     background-color: var(--color3);
     color: var(--color2);
     height: 40px;
+    width: 100%;
 }
 
 .btn:hover {
@@ -111,8 +112,10 @@ h1 {
     
 }
 
-.row {
+.small-container {
     margin: 10px auto 10px auto;
+    padding: 20px;
+    text-align: center;
 }
 
 .bottom-bar {
@@ -126,12 +129,6 @@ h1 {
 
 .bottom-bar > p {
     margin: 0;
-}
-
-.small-container {
-    width: 380px;
-    text-align: center;
-    margin: auto;
 }
 
 #register {
