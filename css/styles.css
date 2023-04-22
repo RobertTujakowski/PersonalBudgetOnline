@@ -111,6 +111,10 @@ h1 {
     
 }
 
+.row {
+    margin: 10px auto 10px auto;
+}
+
 .bottom-bar {
     background-color: var(--color1);
     color: var(--color4);
