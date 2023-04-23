@@ -190,10 +190,10 @@ hr {
 }
 
 .budget-chart {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background: conic-gradient(red 120deg, orange 120deg 360deg);
     border-radius: 50%;
     text-align: center;
-    padding: auto;
+    margin: 50px auto 50px auto;
 }
