@@ -149,3 +149,23 @@ h1 {
 .incomeInput {
     margin: 10px auto 15px auto;
 }
+
+.budget-container {
+    padding: 10px;
+
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+    border-color: white;
+    background-color: var(--color3);
+    color: var(--color1);
+
+    
+}
+
+.balance-container {
+    background-color: #7C96AB;
+}
+
+.chart-container {
+    background-color: #C0DBEA;
+}
