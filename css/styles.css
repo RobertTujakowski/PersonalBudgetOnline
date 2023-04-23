@@ -192,8 +192,26 @@ hr {
 .budget-chart {
     width: 200px;
     height: 200px;
-    background: conic-gradient(red 120deg, orange 120deg 360deg);
+    background: conic-gradient(var(--color4) calc(360deg*500/1500), var(--color2) calc(360deg*500/1500));
     border-radius: 50%;
     text-align: center;
     margin: 50px auto 50px auto;
+}
+
+.conteiners-values {
+    text-align: left;
+}
+
+.value-1 {
+    background-color: var(--color4);
+}
+
+.value-2 {
+    background-color: var(--color2);
+}
+
+.values {
+    width: 20px;
+    height: 10px;
+    display: inline-block;
 }
