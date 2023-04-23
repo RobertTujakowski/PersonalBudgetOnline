@@ -32,6 +32,17 @@ h1 {
     margin: 10px auto 20px auto;
 }
 
+h2 {
+    font-size: 1rem;
+}
+
+hr {
+    border: dotted 7px;
+    border-bottom: none;
+    color: var(--color4);
+    width: 80%;
+}
+
 .top-bar {
     background-color: var(--color1);
     color: var(--color4);
@@ -152,20 +163,27 @@ h1 {
 
 .budget-container {
     padding: 10px;
-
     margin: 5px auto 5px auto;
-    border-radius: 10px;
-    border-color: white;
-    background-color: var(--color3);
-    color: var(--color1);
-
     
+    border-radius: 10px;
+    
+    background-color: var(--color3);
+    color: var(--color1);   
 }
 
 .balance-container {
-    background-color: #7C96AB;
+    
 }
 
 .chart-container {
-    background-color: #C0DBEA;
+    
+}
+
+.container-data {
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    margin: 5px 0 5px 0;
 }
