@@ -171,19 +171,29 @@ hr {
     color: var(--color1);   
 }
 
-.balance-container {
-    
-}
-
-.chart-container {
-    
-}
-
 .container-data {
     background-color: var(--color4);
     color: var(--color1);
     border-radius: 5px;
-    text-align: left;
     padding: 5px;
     margin: 5px 0 5px 0;
+    text-align: left;
+}
+
+.balanse-container {
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+
+.budget-chart {
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(red 120deg, orange 120deg 360deg);
+    border-radius: 50%;
+    text-align: center;
+    padding: auto;
 }
